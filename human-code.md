@@ -1,22 +1,26 @@
-# ESERCIZIO DEL 24/05/2023 con Markdown
-## Emanuele Manno Studente Classe 100
-### TEAMS ESERCITAZIONE HUMAN CODING CLASSE #100
-___
-___
-**TESTO IN GRASSETTO TRA 2 ASTERISCHI** __O UNDERSCORE__
-___
+# Contare i posti a tavola di 2 in 2
 
-*TESTO IN CORSIVO TRA ASTERISCHI* _O UNDERSCORE_
-___
+Ci s(t)iamo tutti?
+<br>
+Per il pranzo di Natale, diamo una mano a nonna per preparare la tavola: zio Rino, la piccola Emy, zia Lucia e nonno Carlo… siamo davvero in tanti!
+Non sarà un pranzo formale, perciò non servono i segnaposto con i nomi, però dobbiamo verificare che ci sia un posto per ciascuno. Per essere più rapidi contiamo i posti a tavola di 2 in 2 e ci accorgiamo che avevamo dimenticato un posto!
 
-Per le liste invece per quelle numerate usate 1. 1. 1. per le altre - - -
+---
 
-Come segue:
+- Siamo tutti i parenti a cena
 
-1. Primo Elemento
-2. Secondo Elemento
+- **SE** ci sono due posti a tavola
 
-- Primo Elemento
-- Secondo Elemento
+  - Aggiungi due parenti alla tavola.
+  - Toglili dalla conta.
 
-___
+- **ALTRIMENTI**
+
+  - **SE** c'è un altro posto
+
+  - **ALTRIMENTI**
+    - Aggiungi un posto al tavolo.
+  - Aggiungi un parente al tavolo.
+  - FINE
+
+---
